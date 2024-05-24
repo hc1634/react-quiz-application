@@ -1,0 +1,356 @@
+[
+  {
+    "id": "01",
+    "question": "Which of the following is the correct name of React.js?",
+    "options": ["React", "React.js", "ReactJS", "All of the above"],
+    "answer": "All of the above",
+    "explanation": "React.js is a free, open-source front-end JavaScript library used for building user interfaces or UI components. It is also known as React or ReactJS."
+  },
+  {
+    "id": "02",
+    "question": "Which of the following are the advantages of React.js?",
+    "options": [
+      "React.js can increase the application's performance with Virtual DOM.",
+      "React.js is easy to integrate with other frameworks such as Angular, BackboneJS since it is only a view library.",
+      "React.js can render both on client and server side.",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "explanation": "All of the above statements are the advantages of React.js."
+  },
+  {
+    "id": "03",
+    "question": "Which of the following is not a disadvantage of React.js?",
+    "options": [
+      "React.js has only a view layer. We have put your code for Ajax requests, events and so on.",
+      "The library of React.js is pretty large.",
+      "The JSX in React.js makes code easy to read and write.",
+      "The learning curve can be steep in React.js."
+    ],
+    "answer": "The JSX in React.js makes code easy to read and write.",
+    "explanation": "'The JSX in React.js makes code easy to read and write' is an advantage of React.js."
+  },
+  {
+    "id": "04",
+    "question": "Which of the following command is used to install create-react-app?",
+    "options": [
+      "npm install -g create-react-app",
+      "npx create-react-app my-app",
+      "npm install create-react-app",
+      "npm install -f create-react-app"
+    ],
+    "answer": "npx create-react-app my-app",
+    "explanation": "The 'npx create-react-app my-app' command is used to install the create-react-app."
+  },
+  {
+    "id": "05",
+    "question": "What of the following is used in React.js to increase performance?",
+    "options": [
+      "Original DOM",
+      "Virtual DOM",
+      "Both A and B.",
+      "None of the above."
+    ],
+    "answer": "Virtual DOM",
+    "explanation": "Virtual DOM is used in React.js to increase performance."
+  },
+  {
+    "id": "06",
+    "question": " What is the use of 'webpack' command in React.js?",
+    "options": [
+      "The 'webpack' command is used to transpile all the JavaScript down into one file.",
+      "It runs React local development server.",
+      "It is a module bundler.",
+      "None of the above."
+    ],
+    "answer": "It is a module bundler.",
+    "explanation": "The 'webpack' command is a module bundler."
+  },
+  {
+    "id": "07",
+    "question": "How many numbers of elements a valid react component can return?",
+    "options": ["1", "2", "3", "Unlimited"],
+    "answer": "1",
+    "explanation": "In react component, we can return only one element."
+  },
+  {
+    "id": "08",
+    "question": "What is the declarative way to render a dynamic list of components based on values in an array?",
+    "options": [
+      "Using the reduce array method",
+      "Using the <Each /> component",
+      "Using the Array.map() method",
+      "With a for/while loop"
+    ],
+    "answer": "Using the Array.map() method",
+    "explanation": "The Array.map() method is used to render a dynamic list of components based on values in an array."
+  },
+  {
+    "id": "09",
+    "question": "What is a state in React?",
+    "options": [
+      "A permanent storage.",
+      "Internal storage of the component.",
+      "External storage of the component.",
+      "None of the above."
+    ],
+    "answer": "Internal storage of the component.",
+    "explanation": "The state is a built-in React object that is used to contain data or information about the component. A component's state can change over time; whenever it changes, the component re-renders."
+  },
+  {
+    "id": "10",
+    "question": "What are the two ways to handle data in React?",
+    "options": [
+      "State & Props",
+      "Services & Components",
+      "State & Services",
+      "State & Component"
+    ],
+    "answer": "State & Props",
+    "explanation": "There are two types of “model” data in React: props and state. The two are very different: Props are like arguments you pass to a function. They let a parent component pass data to a child component and customize its appearance."
+  },
+
+  {
+    "id": "11",
+    "question": "What is true for the keys given to a list of elements in React?",
+    "options": [
+      "Unique in the DOM.",
+      "Unique among the siblings only.",
+      "Do not require to be unique.",
+      "None of the above."
+    ],
+    "answer": "Unique among the siblings only.",
+    "explanation": "Keys given to the list of elements in React should be unique among the siblings only."
+  },
+
+  {
+    "id": "12",
+    "question": "In which of the following condition, the React.js Lifecycle method static getDerivedSateFromProps(props, state) is called?",
+    "options": [
+      "The component is created for the first time.",
+      "The state of the component is updated.",
+      "Both of the above.",
+      "None of the above."
+    ],
+    "answer": "Both of the above.",
+    "explanation": "In React.js, the static getDerivedSateFromProps(props, state) is called in both cases when a component is created and when a component is updated."
+  },
+
+  {
+    "id": "13",
+    "question": "Which of the following statement is true for uncontrolled components in React.js?",
+    "options": [
+      "The source of truth is DOM.",
+      "The source of truth is a component state.",
+      "The source of truth can be anything.",
+      "None of the above."
+    ],
+    "answer": "The source of truth is DOM.",
+    "explanation": "For uncontrolled components in React.js, the source of truth is component DOM."
+  },
+
+  {
+    "id": "14",
+    "question": "We can update the state in React.js by calling to setState() method. These calls are:",
+    "options": [
+      "Synchronous in nature.",
+      "Asynchronous in nature.",
+      "Are asynchronous but can be made synchronous when required.",
+      "None of the above."
+    ],
+    "answer": "Asynchronous in nature.",
+    "explanation": "The call to setState() method in React.js is asynchronous, and multiple calls can be batched for better performance."
+  },
+
+  {
+    "id": "15",
+    "question": "Which of the following best defines the 'key' prop?",
+    "options": [
+      "'Key' prop is used to look pretty, and there is no benefit whatsoever.",
+      "'Key' prop is a way for React to identify a newly added item in a list and compare it during the 'diffing' algorithm.",
+      "It is one of the attributes in HTML.",
+      "It is NOT commonly used in an array."
+    ],
+    "answer": "'Key' prop is a way for React to identify a newly added item in a list and compare it during the 'diffing' algorithm.",
+    "explanation": "It is used to identify any new item in a list when re-rendering. It improves performance and efficiency also."
+  },
+
+  {
+    "id": "16",
+    "question": "What will happen if you render an input element with disabled = {false}?",
+    "options": [
+      "It will be rendered as disabled",
+      "It will not be rendered at all",
+      "It will be rendered as enabled",
+      "You cannot set it false."
+    ],
+    "answer": "It will be rendered as enabled",
+    "explanation": "If you render an input element with disabled = {false}, it will be rendered as enabled."
+  },
+
+  {
+    "id": "17",
+    "question": "Which of the following method refers to the parent class in React.js?",
+    "options": ["inherits()", "self()", "super()", "this()"],
+    "answer": "super()",
+    "explanation": "The super() method refers to the parent class. If you want to call the parent's constructor method and get access to the parent's properties and methods, you can achieve it by calling the super() method in the constructor."
+  },
+
+  {
+    "id": "18",
+    "question": "Which of the following function is used to change the state of the React.js component?",
+    "options": [
+      "this.setState",
+      "this.setChangeState",
+      "this.State{}",
+      "None of the above."
+    ],
+    "answer": "this.setState",
+    "explanation": "The 'this.setState' function is used to change the state of the React.js component."
+  },
+
+  {
+    "id": "19",
+    "question": "What does ES6 stand for?",
+    "options": ["ECMAScript 6", "ECMA 6", "ECMAJavaScript 6", "EJavaScript 6"],
+    "answer": "ECMAScript 6",
+    "explanation": "ES6 stands for ECMAScript 6. ECMAScript was created to standardize JavaScript. ES6 is the 6th version of ECMAScript published in 2015. It is also known as ECMAScript 2015."
+  },
+
+  {
+    "id": "20",
+    "question": "Which of the following is used to pass data to a component from outside in React.js?",
+    "options": ["SetState", "Render with arguments", "Props", "PropTypes"],
+    "answer": "Props",
+    "explanation": "Props are used to pass data to a component from outside in React.js."
+  },
+
+  {
+    "id": "21",
+    "question": "What is React primarily used for?",
+    "options": [
+      "Building mobile apps",
+      "Server-side processing",
+      "Building user interfaces",
+      "Data analysis"
+    ],
+    "answer": "Building user interfaces",
+    "explanation": "React is a JavaScript library used for building user interfaces, particularly for single-page applications."
+  },
+
+  {
+    "id": "22",
+    "question": "JSX stands for...",
+    "options": [
+      "JavaScript XML",
+      "Java Syntax Extension",
+      "JavaScript Syntax",
+      "Java Structured XML"
+    ],
+    "answer": "JavaScript XML",
+    "explanation": "JSX is an abbreviation for JavaScript XML. It allows us to write HTML elements in JavaScript and place them in the DOM without any createElement() and/or appendChild() methods."
+  },
+
+  {
+    "id": "23",
+    "question": "In JSX, how do you express JavaScript variables?",
+    "options": [
+      "Inside curly braces",
+      "Inside square brackets",
+      "Inside single quotes",
+      "Inside parentheses"
+    ],
+    "answer": "Inside curly braces",
+    "explanation": "In JSX, JavaScript expressions, including variables, are embedded inside curly braces."
+  },
+
+  {
+    "id": "24",
+    "question": "Which of the following is a correct way to comment in JSX?",
+    "options": [
+      "{/*Comment here*/}",
+      "//Comment here",
+      "<!Comment here>",
+      "#Comment here"
+    ],
+    "answer": "{/*Comment here*/}",
+    "explanation": "In JSX, comments are written with the syntax {/* Comment here */}, similar to JavaScript multi-line comments."
+  },
+
+  {
+    "id": "25",
+    "question": "A functional component in React is...",
+    "options": [
+      "A class that extends React.Component",
+      "A function that returns a React element",
+      "An HTML element",
+      "A method inside a class component"
+    ],
+    "answer": "A function that returns a React element",
+    "explanation": "A functional component is a JavaScript function that returns a React element, allowing for the display of dynamic content."
+  },
+
+  {
+    "id": "26",
+    "question": "Consider this code snippet: <div><MyComponent/></div> What does MyComponent represent here?",
+    "options": [
+      "A parent component",
+      "A child component",
+      "A prop",
+      "A state variable"
+    ],
+    "answer": "A child component",
+    "explanation": "In this context, MyComponent is a child component that is being rendered inside a div element."
+  },
+
+  {
+    "id": "27",
+    "question": "Which of the following is true about React components?",
+    "options": [
+      "They must always be written as ES6 classes",
+      "They can only return one root element",
+      "They can return multiple root elements",
+      "They cannot handle events"
+    ],
+    "answer": "They can only return one root element",
+    "explanation": "React components must return a single root element, but this root element can contain any number of children."
+  },
+
+  {
+    "id": "28",
+    "question": "What does the setState() function do in a class component?",
+    "options": [
+      "Updates the component’s state and re-renders the component",
+      "Resets the component to its initial state",
+      "Deletes the component’s state",
+      "None of the above"
+    ],
+    "answer": "Updates the component’s state and re-renders the component",
+    "explanation": "The setState() function is used to update the component's state object and re-render the component with the new state."
+  },
+
+  {
+    "id": "29",
+    "question": "Which lifecycle method is called right before a component is unmounted from the DOM?",
+    "options": [
+      "componentDidMount()",
+      "componentDidUpdate()",
+      "componentWillUnmount()",
+      "shouldComponentUpdate()"
+    ],
+    "answer": "componentWillUnmount()",
+    "explanation": "componentWillUnmount() is called just before a component is removed from the DOM, making it useful for cleanup activities like invalidating timers and cancelling network requests."
+  },
+  {
+    "id": "30",
+    "question": "In which lifecycle method should you make API calls in a class component?",
+    "options": [
+      "constructor()",
+      "componentDidMount()",
+      "render()",
+      "componentDidUpdate()"
+    ],
+    "answer": "componentDidMount()",
+    "explanation": "API calls should be made in the componentDidMount() method to ensure that they are executed after the component is mounted to the DOM."
+  }
+]
